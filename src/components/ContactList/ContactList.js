@@ -3,7 +3,9 @@ import styles from './styles.module.css';
 const ContactListItem = ({ id, name, number, onDelete }) => {
   return (
     <li className={styles.contactListItem}>
-      <button className={styles.removeBtn} onClick={() => onDelete(id)}>X</button>
+      <button className={styles.removeBtn} onClick={() => onDelete(id)}>
+        X
+      </button>
       {name}: {number}
     </li>
   );

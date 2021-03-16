@@ -52,7 +52,7 @@ class ContactForm extends Component {
           value={name}
           onChange={this.handleChangeForm}
         />
-        <br/>
+        <br />
         <input
           className={styles.contactFormNumber}
           type="tel"
@@ -61,8 +61,10 @@ class ContactForm extends Component {
           value={number}
           onChange={this.handleChangeForm}
         />
-         <br/>
-        <button className={styles.addBtn} type="submit">Add contact</button>
+        <br />
+        <button className={styles.addBtn} type="submit">
+          Add contact
+        </button>
       </form>
     );
   }
